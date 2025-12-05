@@ -10,6 +10,7 @@ block_size = 100_000  # Number of rows per block
 output_parquet = '311_service_requests_data.parquet'
 
 base_url = 'https://data.cityofnewyork.us/resource/erm2-nwe9.csv'
+
 max_workers = 4 # Number of threads for parallel processing
 
 columns = [
