@@ -24,7 +24,7 @@ COLUMNS_RODENT = [
 ]
 
 SCHEMA_OVERRIDES_RODENT = {
-    "zip_code": pl.utf8,    # forces zipcode datatype to strings
+    "zip_code": pl.Utf8,    # forces zipcode datatype to strings
 }
 
 DEFAULT_RODENT_OUTPUT = "rodent_inspection_data.parquet"
